@@ -1,0 +1,181 @@
+/* Light Mode (Default) */
+body.light-mode {
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+body.light-mode header {
+    background-color: #007bff;
+}
+
+body.light-mode nav ul li a {
+    color: #fff;
+}
+
+body.light-mode nav ul li a:hover,
+body.light-mode nav ul li a.active {
+    background-color: #0056b3;
+}
+
+body.light-mode section {
+    background-color: #fff;
+    color: #333;
+}
+
+body.light-mode section h2 {
+    color: #007bff;
+    border-color: #eee;
+}
+
+body.light-mode .form-group label {
+    color: #555;
+}
+
+body.light-mode .form-group input,
+body.light-mode .form-group select,
+body.light-mode .form-group textarea {
+    border-color: #ccc;
+    background-color: #fff;
+    color: #333;
+}
+
+body.light-mode .task-list li {
+    background-color: #f9f9f9;
+    border-color: #ddd;
+    color: #333;
+}
+
+body.light-mode .task-list li:hover {
+    background-color: #f0f0f0;
+}
+
+body.light-mode .theme-preview {
+    background-color: #fff;
+    color: #333;
+    border-color: #ddd;
+}
+
+body.light-mode .theme-preview h3 {
+    color: #007bff;
+}
+
+body.light-mode .message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+body.light-mode .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background-color: #0f0f2a;
+}
+
+body.dark-mode nav ul li a {
+    color: #ccc;
+}
+
+body.dark-mode nav ul li a:hover,
+body.dark-mode nav ul li a.active {
+    background-color: #2c2c4d;
+}
+
+body.dark-mode section {
+    background-color: #22223b;
+    color: #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+body.dark-mode section h2 {
+    color: #bb86fc; /* A typical dark mode accent color */
+    border-color: #3f3f5a;
+}
+
+body.dark-mode .form-group label {
+    color: #c0c0c0;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select,
+body.dark-mode .form-group textarea {
+    border-color: #444;
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+body.dark-mode .task-list li {
+    background-color: #2c2c4d;
+    border-color: #3f3f5a;
+    color: #e0e0e0;
+}
+
+body.dark-mode .task-list li:hover {
+    background-color: #3a3a60;
+}
+
+body.dark-mode .theme-button {
+    border-color: #bb86fc;
+    background-color: #22223b;
+    color: #bb86fc;
+}
+
+body.dark-mode .theme-button.active,
+body.dark-mode .theme-button:hover {
+    background-color: #bb86fc;
+    color: #1a1a2e;
+}
+
+body.dark-mode .theme-preview {
+    background-color: #2c2c4d;
+    color: #e0e0e0;
+    border-color: #3f3f5a;
+}
+
+body.dark-mode .theme-preview h3 {
+    color: #bb86fc;
+}
+
+body.dark-mode footer {
+    background-color: #0f0f2a;
+    color: #ccc;
+}
+
+body.dark-mode .message.success {
+    background-color: #2a3d31;
+    color: #90ee90;
+    border-color: #3a5c48;
+}
+
+body.dark-mode .message.error {
+    background-color: #5c2f35;
+    color: #ffb6c1;
+    border-color: #7d3d46;
+}
+
+body.dark-mode .cta-button {
+    background-color: #bb86fc;
+    color: #1a1a2e;
+}
+
+body.dark-mode .cta-button:hover {
+    background-color: #a06dfc;
+}
+
+body.dark-mode .delete-button {
+    background-color: #cf6679;
+    color: #1a1a2e;
+}
+
+body.dark-mode .delete-button:hover {
+    background-color: #e9909d;
+}
